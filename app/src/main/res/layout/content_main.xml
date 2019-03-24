@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id="@+id/actionBarTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#762840">
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/menu"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/menuButton"
+            android:layout_toEndOf="@id/menuButton"
+            android:layout_toLeftOf="@+id/refreshButton"
+            android:src="@drawable/logo"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/yenile"
+            />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyler_view"
+        android:background="#fff"
+        android:layout_below="@id/actionBarTop"/>
+
+
+
+
+</RelativeLayout>

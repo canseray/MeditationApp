@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "507010318772",
+    "firebase_url": "https://meditationapp-72679.firebaseio.com",
+    "project_id": "meditationapp-72679",
+    "storage_bucket": "meditationapp-72679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507010318772:android:76a4bd9a790811ba",
+        "android_client_info": {
+          "package_name": "com.example.meditationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507010318772-fdpch6ol4k8r53cgllkmbm6eblsu3lrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meditationapp",
+            "certificate_hash": "4bb7e3eb33a800b80e485f47a0bb79553fe7bfe9"
+          }
+        },
+        {
+          "client_id": "507010318772-fsskl44elt0im25raj11tl65r892e74p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Cop6oFy0CoAxW84bRIvTpXHKCUPT-XY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507010318772-fsskl44elt0im25raj11tl65r892e74p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
